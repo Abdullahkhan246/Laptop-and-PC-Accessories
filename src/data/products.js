@@ -31,7 +31,7 @@ const productCatalogue = [
   // ---------------- Laptops (4) ----------------
   {
     id: 1, name: 'HP Victus 15 Gaming Laptop - Ryzen 5, RTX 4050, 16GB, 512GB SSD', brand: 'HP',
-    category: 'Laptops', price: 289999, oldPrice: 325000, badge: '11% Off', rating: 4.7,
+    category: 'Laptops', price: 87950, oldPrice: 94999, badge: '7% Off', rating: 4.7,
     image: unsplashPhoto('photo-1517336714731-489689fd1ca8'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['AMD Ryzen 5 processor for gaming and study', 'NVIDIA RTX 4050 graphics, 144Hz display', '16GB RAM with 512GB fast SSD storage'],
@@ -39,7 +39,7 @@ const productCatalogue = [
   },
   {
     id: 2, name: 'Dell Inspiron 14 Laptop - Core i5, 16GB, 512GB SSD', brand: 'Dell',
-    category: 'Laptops', price: 214500, oldPrice: null, badge: 'New', rating: 4.6,
+    category: 'Laptops', price: 73490, oldPrice: null, badge: 'New', rating: 4.6,
     image: unsplashPhoto('photo-1498050108023-c5249f4df085'),
     inStock: true, isFeatured: true, isNew: true,
     highlights: ['Intel Core i5 13th Gen performance', 'Slim aluminium body, only 1.5 kg', '16GB RAM and 512GB SSD for daily work'],
@@ -47,7 +47,7 @@ const productCatalogue = [
   },
   {
     id: 3, name: 'Lenovo IdeaPad Slim 3 - Core i3, 8GB, 256GB SSD', brand: 'Lenovo',
-    category: 'Laptops', price: 124999, oldPrice: 139999, badge: '11% Off', rating: 4.4,
+    category: 'Laptops', price: 58999, oldPrice: 64999, badge: '9% Off', rating: 4.4,
     image: unsplashPhoto('photo-1516321318423-f06f85e504b3'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['Best value laptop for students', 'Lightweight design for university use', 'Fast charging battery support'],
@@ -55,7 +55,7 @@ const productCatalogue = [
   },
   {
     id: 4, name: 'Apple MacBook Air 13 - M2 Chip, 8GB, 256GB SSD', brand: 'Apple',
-    category: 'Laptops', price: 364999, oldPrice: null, badge: 'Popular', rating: 4.9,
+    category: 'Laptops', price: 96999, oldPrice: null, badge: 'Popular', rating: 4.9,
     image: unsplashPhoto('photo-1525547719571-a2d4ac8945e2'),
     inStock: false, isFeatured: true, isNew: false,
     highlights: ['Apple M2 chip, silent fanless design', 'Up to 18 hours battery life', 'Retina display with rich colours'],
@@ -65,7 +65,7 @@ const productCatalogue = [
   // ---------------- Monitors (4) ----------------
   {
     id: 5, name: 'Samsung Odyssey G5 27 inch QHD Gaming Monitor - 165Hz', brand: 'Samsung',
-    category: 'Monitors', price: 94999, oldPrice: 112000, badge: '15% Off', rating: 4.8,
+    category: 'Monitors', price: 72999, oldPrice: 84999, badge: '14% Off', rating: 4.8,
     image: unsplashPhoto('photo-1547082299-de196ea013d6'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['Curved QHD panel for deep immersion', '165Hz refresh with 1ms response', 'HDR10 for richer contrast'],
@@ -73,7 +73,7 @@ const productCatalogue = [
   },
   {
     id: 6, name: 'LG UltraGear 24 inch FHD Gaming Monitor - 180Hz', brand: 'LG',
-    category: 'Monitors', price: 52999, oldPrice: null, badge: 'New', rating: 4.6,
+    category: 'Monitors', price: 48950, oldPrice: null, badge: 'New', rating: 4.6,
     image: unsplashPhoto('photo-1593640408182-31c70c8268f5'),
     inStock: true, isFeatured: false, isNew: true,
     highlights: ['180Hz refresh for competitive play', 'Fast IPS panel, wide viewing angles', 'Thin bezels on three sides'],
@@ -81,7 +81,7 @@ const productCatalogue = [
   },
   {
     id: 7, name: 'Dell 24 inch FHD Office Monitor - IPS, Height Adjustable', brand: 'Dell',
-    category: 'Monitors', price: 41999, oldPrice: 46500, badge: '10% Off', rating: 4.5,
+    category: 'Monitors', price: 35999, oldPrice: 39999, badge: '10% Off', rating: 4.5,
     image: unsplashPhoto('photo-1519389950473-47ba0277781c'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['ComfortView low blue light for office hours', 'Height and tilt adjustable stand', 'Clean cable management design'],
@@ -89,7 +89,7 @@ const productCatalogue = [
   },
   {
     id: 8, name: 'ASUS TUF Gaming 32 inch QHD Monitor - 170Hz', brand: 'ASUS',
-    category: 'Monitors', price: 128500, oldPrice: null, badge: 'New', rating: 4.7,
+    category: 'Monitors', price: 89999, oldPrice: null, badge: 'New', rating: 4.7,
     image: unsplashPhoto('photo-1593508512255-86ab42a8e620'),
     inStock: true, isFeatured: true, isNew: true,
     highlights: ['Big 32 inch QHD gaming screen', '170Hz refresh, HDR support', 'Built-in stereo speakers'],
@@ -99,7 +99,7 @@ const productCatalogue = [
   // ---------------- GPU (3) ----------------
   {
     id: 9, name: 'MSI GeForce RTX 4060 Ventus 8GB Graphic Card', brand: 'MSI',
-    category: 'GPU', price: 118999, oldPrice: 132000, badge: '10% Off', rating: 4.8,
+    category: 'GPU', price: 94950, oldPrice: 99999, badge: '5% Off', rating: 4.8,
     image: unsplashPhoto('photo-1587202372775-e229f172b9d7'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['Smooth 1080p and 1440p gaming', 'DLSS 3 frame generation support', 'Dual fan cooling, quiet under load'],
@@ -107,7 +107,7 @@ const productCatalogue = [
   },
   {
     id: 10, name: 'Gigabyte Radeon RX 7600 Gaming OC 8GB Graphic Card', brand: 'Gigabyte',
-    category: 'GPU', price: 104500, oldPrice: null, badge: 'Popular', rating: 4.6,
+    category: 'GPU', price: 87999, oldPrice: null, badge: 'Popular', rating: 4.6,
     image: unsplashPhoto('photo-1587202372634-32705e3bf49c'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['Great value for high-refresh 1080p', 'Triple fan Windforce cooling', 'Metal backplate for strength'],
@@ -115,7 +115,7 @@ const productCatalogue = [
   },
   {
     id: 11, name: 'ASUS Dual GeForce RTX 4070 Super 12GB Graphic Card', brand: 'ASUS',
-    category: 'GPU', price: 219999, oldPrice: 238000, badge: '8% Off', rating: 4.9,
+    category: 'GPU', price: 89999, oldPrice: 97999, badge: '8% Off', rating: 4.9,
     image: unsplashPhoto('photo-1591799264318-7e6ef8ddb7ea'),
     inStock: false, isFeatured: true, isNew: true,
     highlights: ['High-end 1440p and 4K gaming', '12GB GDDR6X fast memory', 'Compact dual fan design fits most cases'],
@@ -125,7 +125,7 @@ const productCatalogue = [
   // ---------------- SSD (3) ----------------
   {
     id: 12, name: 'Samsung 970 EVO Plus 1TB NVMe SSD', brand: 'Samsung',
-    category: 'SSD', price: 28999, oldPrice: 34500, badge: '16% Off', rating: 4.9,
+    category: 'SSD', price: 23999, oldPrice: 28999, badge: '17% Off', rating: 4.9,
     image: unsplashPhoto('photo-1541029071515-84cc54f84dc5'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['Read speeds up to 3,500 MB/s', 'Reliable Samsung V-NAND quality', 'Perfect boot drive upgrade'],
@@ -133,7 +133,7 @@ const productCatalogue = [
   },
   {
     id: 13, name: 'WD Black SN770 500GB NVMe Gen4 SSD', brand: 'WD',
-    category: 'SSD', price: 17999, oldPrice: null, badge: 'New', rating: 4.7,
+    category: 'SSD', price: 15499, oldPrice: null, badge: 'New', rating: 4.7,
     image: unsplashPhoto('photo-1520170350707-b2da59970118'),
     inStock: true, isFeatured: false, isNew: true,
     highlights: ['Gen4 speeds up to 5,000 MB/s', 'Built for gaming load times', 'Low power, stays cool'],
@@ -141,7 +141,7 @@ const productCatalogue = [
   },
   {
     id: 14, name: 'Kingston A400 480GB SATA SSD', brand: 'Kingston',
-    category: 'SSD', price: 9499, oldPrice: 11500, badge: '17% Off', rating: 4.5,
+    category: 'SSD', price: 8999, oldPrice: 10999, badge: '18% Off', rating: 4.5,
     image: unsplashPhoto('photo-1518770660439-4636190af475'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['10x faster than a normal hard drive', 'Best budget upgrade for old laptops', 'Shock and vibration resistant'],
@@ -151,7 +151,7 @@ const productCatalogue = [
   // ---------------- RAM (3) ----------------
   {
     id: 15, name: 'Kingston Fury Beast 16GB DDR5 5600MHz Desktop RAM', brand: 'Kingston',
-    category: 'RAM', price: 15499, oldPrice: 17999, badge: '14% Off', rating: 4.8,
+    category: 'RAM', price: 13999, oldPrice: 15999, badge: '13% Off', rating: 4.8,
     image: unsplashPhoto('photo-1587202372583-49330a15584d'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['DDR5 speed for new generation PCs', 'Low profile heat spreader', 'Plug and play auto overclocking'],
@@ -159,7 +159,7 @@ const productCatalogue = [
   },
   {
     id: 16, name: 'Crucial 8GB DDR4 3200MHz Laptop RAM', brand: 'Crucial',
-    category: 'RAM', price: 5999, oldPrice: null, badge: 'Popular', rating: 4.6,
+    category: 'RAM', price: 5499, oldPrice: null, badge: 'Popular', rating: 4.6,
     image: unsplashPhoto('photo-1527430253228-e93688616381'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['Easiest way to speed up a laptop', 'Works with most DDR4 laptops', 'Improves multitasking instantly'],
@@ -167,7 +167,7 @@ const productCatalogue = [
   },
   {
     id: 17, name: 'Kingston Fury Beast RGB 32GB DDR4 3600MHz RAM Kit', brand: 'Kingston',
-    category: 'RAM', price: 24999, oldPrice: 28500, badge: '12% Off', rating: 4.7,
+    category: 'RAM', price: 21999, oldPrice: 24999, badge: '12% Off', rating: 4.7,
     image: unsplashPhoto('photo-1542978709-19c95dc3bc7e'),
     inStock: true, isFeatured: false, isNew: true,
     highlights: ['32GB kit for heavy gaming and editing', 'RGB lighting with smooth effects', 'Intel XMP ready profiles'],
@@ -177,7 +177,7 @@ const productCatalogue = [
   // ---------------- Laptop Accessories (4) ----------------
   {
     id: 18, name: 'Premium Laptop Backpack 15.6 inch - Water Resistant', brand: 'AAA Basics',
-    category: 'Laptop Accessories', price: 4499, oldPrice: 5999, badge: '25% Off', rating: 4.6,
+    category: 'Laptop Accessories', price: 3999, oldPrice: 4999, badge: '20% Off', rating: 4.6,
     image: unsplashPhoto('photo-1553062407-98eeb64c6a62'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['Padded 15.6 inch laptop compartment', 'Water resistant fabric for daily travel', 'USB charging port on the side'],
@@ -185,7 +185,7 @@ const productCatalogue = [
   },
   {
     id: 19, name: 'Aluminium Laptop Stand - Adjustable, Foldable', brand: 'AAA Basics',
-    category: 'Laptop Accessories', price: 3299, oldPrice: null, badge: 'New', rating: 4.7,
+    category: 'Laptop Accessories', price: 2799, oldPrice: null, badge: 'New', rating: 4.7,
     image: unsplashPhoto('photo-1527864550417-7fd91fc51a46'),
     inStock: true, isFeatured: false, isNew: true,
     highlights: ['6 height levels for better posture', 'Solid aluminium, holds up to 10 kg', 'Folds flat, carry anywhere'],
@@ -193,7 +193,7 @@ const productCatalogue = [
   },
   {
     id: 20, name: 'Laptop Cooling Pad with 5 Quiet Fans and RGB Lights', brand: 'AAA Basics',
-    category: 'Laptop Accessories', price: 5499, oldPrice: 6999, badge: '21% Off', rating: 4.5,
+    category: 'Laptop Accessories', price: 4999, oldPrice: 6499, badge: '23% Off', rating: 4.5,
     image: unsplashPhoto('photo-1527814050087-3793815479db'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['5 quiet fans keep gaming laptops cool', 'Two height settings for comfort', 'RGB side lights with on/off control'],
@@ -201,7 +201,7 @@ const productCatalogue = [
   },
   {
     id: 21, name: '65W USB-C Fast Laptop Charger - Universal Adapter', brand: 'Anker',
-    category: 'Laptop Accessories', price: 7999, oldPrice: 9500, badge: '16% Off', rating: 4.8,
+    category: 'Laptop Accessories', price: 6999, oldPrice: 8499, badge: '18% Off', rating: 4.8,
     image: unsplashPhoto('photo-1611532736597-de2d4265fba3'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['65W fast charging over USB-C', 'Works with most USB-C laptops and phones', 'Compact GaN design, travel friendly'],
@@ -211,7 +211,7 @@ const productCatalogue = [
   // ---------------- PC Accessories (3) ----------------
   {
     id: 22, name: '20000mAh Power Bank with 22.5W Fast Charging', brand: 'Anker',
-    category: 'PC Accessories', price: 6499, oldPrice: 7999, badge: '19% Off', rating: 4.7,
+    category: 'PC Accessories', price: 5999, oldPrice: 7499, badge: '20% Off', rating: 4.7,
     image: unsplashPhoto('photo-1609091839311-d5365f9ff1c5'),
     inStock: true, isFeatured: true, isNew: false,
     highlights: ['Charges a phone 3 to 4 times', '22.5W fast charging support', 'LED display shows battery level'],
@@ -219,7 +219,7 @@ const productCatalogue = [
   },
   {
     id: 23, name: 'Shockproof PC Cover with Camera Protection - Clear', brand: 'Baseus',
-    category: 'PC Accessories', price: 1499, oldPrice: null, badge: 'Popular', rating: 4.4,
+    category: 'PC Accessories', price: 1299, oldPrice: null, badge: 'Popular', rating: 4.4,
     image: unsplashPhoto('photo-1511707171634-5f897ff02aa9'),
     inStock: true, isFeatured: false, isNew: true,
     highlights: ['Drop tested corner protection', 'Raised edges guard screen and camera', 'Clear back shows your phone design'],
@@ -227,7 +227,7 @@ const productCatalogue = [
   },
   {
     id: 24, name: '3-in-1 Fast Charging Cable - USB-C, Lightning, Micro USB', brand: 'Baseus',
-    category: 'PC Accessories', price: 1199, oldPrice: 1599, badge: '25% Off', rating: 4.5,
+    category: 'PC Accessories', price: 999, oldPrice: 1399, badge: '29% Off', rating: 4.5,
     image: unsplashPhoto('photo-1583394838336-acd977736f90'),
     inStock: true, isFeatured: false, isNew: false,
     highlights: ['One cable for every device', 'Braided nylon, tangle free', 'Supports fast charging and data sync'],

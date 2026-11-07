@@ -6,7 +6,7 @@ import ProductCard from '../components/ProductCard'
 export default function Shop({ go, addToCart, toggleWishlist, wishlist, search, initialCategory }) {
   const [category, setCategory] = useState(initialCategory || 'All')
   const [brand, setBrand] = useState('All')
-  const [maxPrice, setMaxPrice] = useState(400000)
+  const [maxPrice, setMaxPrice] = useState(99999)
   const [sort, setSort] = useState('featured')
 
   // keep the page in sync when the user picks a category from nav / home
@@ -33,7 +33,7 @@ export default function Shop({ go, addToCart, toggleWishlist, wishlist, search, 
     return out
   }, [category, brand, maxPrice, sort, search])
 
-  function clearAll() { setCategory('All'); setBrand('All'); setMaxPrice(400000); setSort('featured') }
+  function clearAll() { setCategory('All'); setBrand('All'); setMaxPrice(99999); setSort('featured') }
 
   return (
     <main className="page">
@@ -56,7 +56,7 @@ export default function Shop({ go, addToCart, toggleWishlist, wishlist, search, 
           </select>
 
           <label>Max price: {formatPrice(maxPrice)}</label>
-          <input type="range" min="1000" max="400000" step="1000" value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))} />
+          <input type="range" min="1000" max="99999" step="1" value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))} />
 
           <button className="btn btn-ghost dark" onClick={clearAll}>Clear All Filters</button>
         </aside>
